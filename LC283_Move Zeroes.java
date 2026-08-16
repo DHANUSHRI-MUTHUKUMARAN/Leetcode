@@ -13,5 +13,7 @@ class LC283_MoveZeroes {
     }
 }
 /*
-we are tracking the position of the next non-zero element
+LC 283 - i have added the pos tracker of the zeros ... while
+ traversing if the pointer faces any non zero element the pos element where the zero is present would be swapped ..
+. prev i did it using two pointer whose time complexity is O(n2) now it is O(n)
 */
