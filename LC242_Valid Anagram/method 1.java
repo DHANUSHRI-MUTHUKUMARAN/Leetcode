@@ -1,6 +1,7 @@
+//converting the string to character array (METHOD 1)
 import java.util.Arrays;
 
-class LC242_ValidAnagram {
+class ConvertingToCharArray {
     public boolean isAnagram(String s, String t){
         char[] arr1 = s.toCharArray();
         char[] arr2 = t.toCharArray();
@@ -8,5 +9,4 @@ class LC242_ValidAnagram {
         Arrays.sort(arr2);
         return (Arrays.equals(arr1,arr2));
     }
-    
 }
